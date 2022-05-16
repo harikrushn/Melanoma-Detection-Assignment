@@ -20,14 +20,14 @@ Problem statement: To build a CNN based model which can accurately detect melano
 
 ## General Information
 - Malenoma Detection problem is approached with CNN where four convolutional layers and one dense layers are used 
-- Four Convolutional layers consist of 16,32,64 and 64 units respectively with 3x3 kernel 
+- Four Convolutional layers consist of 32,32,64 and 128 units respectively with 3x3 kernel 
 - Convolutional layers are followed by MaxPooling layer and dropout layer
 - Dense layer consists of 128 units 
 - All layers except dense layers have `relu` activation function, dense layer has `softmax` activation function
 
 
 ## Conclusions
-Final model is having accuracy of 78% with 50 epochs
+Final model is having 80% validation accuracy after 30 epochs
 
 
 ## Technologies Used
